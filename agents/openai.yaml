@@ -1,0 +1,4 @@
+interface:
+  display_name: "ML Paper Writing"
+  short_description: "Acceptance-focused, evidence-grounded ML paper writing"
+  default_prompt: "Use $ml-paper-writing to identify my strongest paper story, align claims with evidence, and draft a reviewer-ready ML paper."
