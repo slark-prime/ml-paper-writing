@@ -1,8 +1,13 @@
 # ML Paper Writing
 
+[![GitHub stars](https://img.shields.io/github/stars/slark-prime/ml-paper-writing?style=social)](https://github.com/slark-prime/ml-paper-writing)
+[![Download ZIP](https://img.shields.io/badge/Download-latest%20ZIP-2563eb)](https://github.com/slark-prime/ml-paper-writing/archive/refs/heads/main.zip)
+
 A Codex skill for turning machine-learning research materials into a strategically positioned, well-organized, reviewer-ready paper.
 
 The skill treats a paper as an academic launch rather than a project report. It identifies the most publishable supported insight, builds a coherent evidence spine around it, and helps complete the missing research needed to make the story credible.
+
+> If this skill is useful to you, please **Star the repository before downloading**. Stars help other researchers discover the project and support continued improvement.
 
 ## What it does
 
@@ -49,6 +54,13 @@ The scientific floor is intentionally small but firm: do not fabricate evidence,
 ## Installation
 
 Codex loads personal skills from `~/.agents/skills` and repository-scoped skills from `.agents/skills`, as described in the [official OpenAI skill documentation](https://developers.openai.com/codex/skills).
+
+### Download the latest ZIP
+
+1. Open the [repository](https://github.com/slark-prime/ml-paper-writing) and click **Star** in the top-right corner.
+2. [Download the latest ZIP](https://github.com/slark-prime/ml-paper-writing/archive/refs/heads/main.zip).
+3. Extract the archive and rename the folder from `ml-paper-writing-main` to `ml-paper-writing`.
+4. Move it into `~/.agents/skills/` for personal use or `.agents/skills/` for repository-scoped use.
 
 ### Personal installation
 
@@ -161,4 +173,3 @@ The skill includes dedicated blueprints for:
 ## Influence
 
 The skill incorporates and extends reviewer-oriented paper-writing ideas from [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills), together with claim–evidence engineering, evidence-first drafting, research-story selection, and non-defensive academic positioning.
-
